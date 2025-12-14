@@ -18,7 +18,7 @@ const Math = () => {
         return (
           <div
             key={index}
-            className="border border-blue-700 bg-blue-300/10 mt-2 rounded-lg w-full flex justify-center items-center hover:bg-blue-300/20 transition"
+            className=" border-blue-700 bg-white/10 mt-2 rounded-lg w-full flex justify-center items-center hover:bg-blue-300/20 transition"
           >
             <a
               href={file.default}
