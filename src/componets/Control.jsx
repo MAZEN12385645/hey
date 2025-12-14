@@ -9,7 +9,7 @@ const Control = () => {
 
   return (
 <section >
-  <div className="bg-[#03346E]/40 backdrop-blur-2xl cursor-pointer font-bold bg-opacity-25 border-2 border-[#03346E] text-[#6EACDA]
+  <div className="bg-[#03346E]/40  backdrop-blur-2xl cursor-pointer font-bold bg-opacity-25 border-2 border-[#03346E] text-[#6EACDA]
     mt-5 flex justify-center  mx-auto  sm:w-fit max-lg:w-fit px-1 text-sm rounded-lg items-center w-2xl  h-10  gap-5">
     <button
       onClick={() => setActive("chemistry")}
