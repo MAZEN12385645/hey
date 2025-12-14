@@ -8,12 +8,12 @@ const Control = () => {
   const [active, setActive] = useState(null)
 
   return (
-<section >
-  <div className="bg-blue-300/20  backdrop-blur-2xl cursor-pointer font-bold bg-opacity-25 border-2 border-[#03346E] text-[#6EACDA]
+<section> 
+  <div className="bg-blue-300/30  cursor-pointer font-bold bg-opacity-25 border  border-[#03346E] text-[#6EACDA]
     mt-5 flex justify-center  mx-auto  sm:w-fit max-lg:w-fit px-3 text-sm rounded-lg items-center w-2xl  h-10  gap-5">
-    <button
+    <button 
       onClick={() => setActive("chemistry")}
-      className={`primary-btn ${active === "chemistry" ? " active-btn" : ""}`}
+      className={`primary-btn  ${active === "chemistry" ? " active-btn" : ""}`}
     >
       chemistry
     </button>
@@ -35,12 +35,13 @@ const Control = () => {
     >
       Physics
     </button>
-  </div>
+    </div>
   {/* عرض المحتوى حسب الزرار */}
   {active === "chemistry" && <Chemist/>}
   {active === "math" && <Math/>}
   {active === "mechanics" && <Mech/>}
   {active === "Physics" && <Physics/>}
+  
 </section>
   )
 }
