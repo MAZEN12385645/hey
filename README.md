@@ -5,12 +5,12 @@ this website made by a  faculty of sscience student
 made for help students to find their lectures file 
 
 
-#Benfits 
+## Benfits 
 very useful 
 easy to use
 modern UI design 
 
 
-#Tools
+### Tools
 React , tailwind css 
 
