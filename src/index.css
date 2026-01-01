@@ -68,7 +68,7 @@
       @apply   active:text-sky-500 transition-transform  duration-300 ease-in-out ;
     }
     .active-btn{
-   @apply animate-bounce bg-black/30 w-20 h-9 transition-all  duration-300 ease-in-out  rounded-lg text-[#17B794] 
+   @apply  bg-black/30 w-20 h-8 transition-all  duration-300 ease-in-out  rounded-lg text-[#17B794] 
     }
     .secondary-btn {
       @apply px-8 py-4 bg-white border border-white-95 rounded-md hover:bg-orange-90 transition-colors;
